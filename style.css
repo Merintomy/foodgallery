@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color:rgb(50, 47, 47);
+    width: 100%;
+ 
+    height: 50px;
+}
+h2{
+    color:beige;
+    text-align: center;
+    padding: 10px;
+}
+
+header h2:hover{
+   background-color:(black);
+}
+nav{
+    background-color:rgb(148, 145, 145);
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0 ;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: white;
+    text-shadow: 2px 4px 8px black;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://wallpapers.com/images/hd/italian-food-vegetables-pizza-3e0s2waqcquftbc8.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.row1{
+margin-top: 10px;
+    width:100%;
+    height:400px ;
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.row{
+    margin-top: 10px;
+    width:100%;
+    height:400px ;
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    
+    width:250px;
+    height:400px ;
+    background-color: lightgray;
+    text-align: center;
+    margin-left: 10px;
+    
+   
+    
+}
+.row2{
+    width:100%;
+    height:500px ;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+footer ,p{
+
+    background-color: rgb(39, 36, 36);
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+   
+}
+
+
+footer ,p:hover{
+color:rgb(black)
+}
+
+h3,h4{
+    text-align: center;
+    color: black;
+}
+button{
+    color: black;
+    background-color: darkgray;
+  
+    padding:  10px;
+}
+button:hover{
+    background-color: grey;
+}
